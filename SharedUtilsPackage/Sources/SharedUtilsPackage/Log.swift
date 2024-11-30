@@ -1,13 +1,13 @@
 
 import Foundation
 
-enum Log: String {
+public enum Log: String {
     case error = "🚨"
     case info = "ℹ️"
     case warning = "⚠️"
     case success = "✅"
     
-    static func print(
+    public static func print(
         _ items: Any...,
         type: Log,
         extended: Bool = false,
