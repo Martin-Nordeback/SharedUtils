@@ -4,8 +4,9 @@
 
 import SwiftUI
 
-struct PreviewTestView: View {
-    var body: some View {
+public struct PreviewTestView: View {
+    public init() {}
+    public var body: some View {
         VStack(alignment: .leading) {
             Content()
             Button {
