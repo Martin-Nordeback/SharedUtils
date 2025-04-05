@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Martin-Nordeback/SharedUtils", from: "1.0.0")
+        .package(url: "https://github.com/Martin-Nordeback/SharedUtils", branch: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
